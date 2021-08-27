@@ -1,0 +1,20 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+
+        >
+    <Preference
+        app:key="back"
+        app:icon="@drawable/ic_arrow_back"
+        app:title="Settings">
+    </Preference>
+
+        <CheckBoxPreference
+            app:key="background_mode"
+            app:title="Dark Mode"
+            app:icon="@drawable/ic_mode">
+        </CheckBoxPreference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
