@@ -78,6 +78,7 @@ class DetailsFragment: Fragment() {
                     Glide.with(it).load(img).into(binding.articleImg)
 
                 }
+            binding.loading.visibility =View.GONE
 
         })
     }

@@ -63,7 +63,7 @@
             android:textColor="@color/black"
             android:textSize="18sp"
             app:layout_constraintBottom_toTopOf="@+id/articleAuthor"
-            app:layout_constraintEnd_toStartOf="@+id/imageButton"
+            app:layout_constraintEnd_toStartOf="@+id/arrowButton"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/articleImageCard"
             app:layout_constraintTop_toTopOf="parent"
@@ -79,7 +79,7 @@
             android:maxLines="2"
             android:textSize="16sp"
             app:layout_constraintBottom_toTopOf="@+id/publishDate"
-            app:layout_constraintEnd_toStartOf="@+id/imageButton"
+            app:layout_constraintEnd_toStartOf="@+id/arrowButton"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toEndOf="@+id/articleImageCard"
             app:layout_constraintTop_toBottomOf="@+id/articleTitle"
@@ -97,7 +97,7 @@
             tools:text="2021-08-24" />
 
         <ImageButton
-            android:id="@+id/imageButton"
+            android:id="@+id/arrowButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"

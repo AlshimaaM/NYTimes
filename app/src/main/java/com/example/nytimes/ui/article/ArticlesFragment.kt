@@ -68,6 +68,7 @@ class ArticlesFragment: Fragment(), ArticleAdapter.OnArticleListener {
         viewModel.allArticle?.observe(requireActivity(), Observer {
             articleList = it.results as ArrayList<ResultsItem>
             articleAdapter.updateArticle(articleList)
+            binding.loading.visibility =View.GONE
         })
     }
 
